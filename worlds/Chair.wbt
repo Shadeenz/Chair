@@ -1,0 +1,173 @@
+#VRML_SIM R2019a utf8
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.23979362398532578 0.9511087347296041 0.19465660178127997 1.4130399981848156
+  position 2.543047119943285 1.4318225731712295 0.8787801651142072
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+Floor {
+}
+Solid {
+  translation -0.11 0.36 0
+  children [
+    DEF GR_OBJECT Group {
+      children [
+        DEF S_CYL2 Transform {
+          translation 0.3820784834341124 0.057310792796221866 0.060646979043626655
+          rotation 0.793337091776542 0.12064551525780179 0.5967084032085672 0.5422175647882448
+          children [
+            Shape {
+              appearance PBRAppearance {
+              }
+              geometry Cylinder {
+                height 0.7
+                radius 0.03
+              }
+            }
+          ]
+        }
+        DEF S_CYL3 Transform {
+          translation 0.0774855991653382 0.029737239421988783 0.37753925841049735
+          rotation -0.19348412024400258 -0.9727099314583164 0.12805969098729575 2.5670603061004256
+          children [
+            Shape {
+              appearance PBRAppearance {
+              }
+              geometry Cylinder {
+                height 0.7
+                radius 0.03
+              }
+            }
+          ]
+        }
+        DEF S_CYL4 Transform {
+          translation 0.38611334450212287 0.04400875325276874 0.38269152886422536
+          rotation 0.7040626684974133 0.09269161534836907 -0.7040625137531548 5.782580306100425
+          children [
+            Shape {
+              appearance PBRAppearance {
+              }
+              geometry Cylinder {
+                height 0.7
+                radius 0.03
+              }
+            }
+          ]
+        }
+        DEF S_CYL5 Transform {
+          translation 0.08163767304404276 0.0494305850919304 0.044117557435607656
+          rotation 0.7933372826518167 0.12064554428486493 -0.5967081435667191 0.5422175647882448
+          children [
+            Shape {
+              appearance PBRAppearance {
+              }
+              geometry Cylinder {
+                height 0.7
+                radius 0.03
+              }
+            }
+          ]
+        }
+        DEF S_BOX1 Transform {
+          translation 0.23 0.45 0.23
+          children [
+            Shape {
+              appearance PBRAppearance {
+                transparency 1
+              }
+              geometry Box {
+                size 0.15 0.15 0.15
+              }
+            }
+          ]
+        }
+        DEF S_BOX2 Transform {
+          translation 0.23 0.05999999999999998 -3.469446951953614e-18
+          children [
+            Shape {
+              appearance PBRAppearance {
+              }
+              geometry Box {
+                size 0.28 0.01 0.01
+              }
+            }
+          ]
+        }
+        DEF S_BOX3 Transform {
+          translation 0.039800978565267986 0.049999999999999975 0.20984861865791926
+          rotation 0 1 0 1.57
+          children [
+            Shape {
+              appearance PBRAppearance {
+              }
+              geometry Box {
+                size 0.28 0.01 0.01
+              }
+            }
+          ]
+        }
+        DEF S_BOX4 Transform {
+          translation 0.23 0 0.23
+          children [
+            Shape {
+              appearance PBRAppearance {
+                transparency 1
+              }
+              geometry Box {
+                size 0.4 0.4 0.4
+              }
+            }
+          ]
+        }
+        DEF S_BOX5 Transform {
+          translation 0.23 0.05999999999999998 0.4200000000000002
+          children [
+            Shape {
+              appearance PBRAppearance {
+              }
+              geometry Box {
+                size 0.28 0.01 0.01
+              }
+            }
+          ]
+        }
+        DEF S_BOX6 Transform {
+          translation 0.4197849315451505 0.049999999999999975 0.23015121646663472
+          rotation 0 1 0 1.57
+          children [
+            Shape {
+              appearance PBRAppearance {
+              }
+              geometry Box {
+                size 0.28 0.01 0.01
+              }
+            }
+          ]
+        }
+        DEF S_CYL6 Transform {
+          translation 0.216800733372831 0.3900000000000001 0.23408853455264042
+          rotation 0 1 0 2.8797932569999998
+          children [
+            Shape {
+              appearance PBRAppearance {
+                baseColor 0.9607843137254902 0.4745098039215686 0
+              }
+              geometry Cylinder {
+                height 0.1
+                radius 0.3
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+  boundingObject USE GR_OBJECT
+  physics Physics {
+    mass 1
+  }
+}
